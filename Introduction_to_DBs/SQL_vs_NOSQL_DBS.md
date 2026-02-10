@@ -1,40 +1,40 @@
 # SQL Vs NO-SQL
 In this section we see the main difference or say oerview of Structured Query Language(SQL) vs Not Only Structured Query Language(NO-SQL)
 
-✅ SQL Databases (Relational Databases)
+## ✅ SQL Databases (Relational Databases)
 
-Data is stored in tables (rows & columns)
+- Data is stored in tables (rows & columns)
 
-Uses fixed schema
+- Uses fixed schema
 
-Query language: SQL
+- Query language: SQL
 
-Best when data has clear relationships (users ↔ orders ↔ payments)
+- Best when data has clear relationships (users ↔ orders ↔ payments)
 
-Common SQL DB examples
+### Common SQL DB examples
 
-MySQL
+- MySQL
 
-PostgreSQL
+- PostgreSQL
 
-Oracle Database
+- Oracle Database
 
-Microsoft SQL Server
+- Microsoft SQL Server
 
-SQLite
+- SQLite
 
-Example data (table style)
+#### Example data (table style)
 
 Users table
 
-id	name	email
-1	Dipak	dipak@gmail.com
-
-2	Rahul	rahul@gmail.com
+|id	|name|	email|
+|---|----|-------|
+|1	|Dipak|	dipak@gmail.com|
+|2	|Rahul|	rahul@gmail.com|
 
 👉 Strong consistency, joins, transactions (ACID).
 
-✅ NoSQL Databases (Non-Relational)
+## ✅ NoSQL Databases (Non-Relational)
 
 Data stored as documents, key-value, graphs, or columns
 
@@ -44,7 +44,7 @@ Data stored as documents, key-value, graphs, or columns
 
 - Great for modern apps, APIs, real-time data
 
-Common NoSQL DB examples
+### Common NoSQL DB examples
 
 - MongoDB → Document-based
 
@@ -56,7 +56,7 @@ Common NoSQL DB examples
 
 - Amazon DynamoDB
 
-Example data (document style – MongoDB)
+#### Example data (document style – MongoDB)
 ```json
 {
   "_id": 1,
@@ -69,7 +69,7 @@ Example data (document style – MongoDB)
 
 👉 No fixed columns, easy to evolve, very fast for reads/writes.
 
-⚔️ SQL vs NoSQL (Quick Compare)
+### ⚔️ SQL vs NoSQL (Quick Compare)
 
 |Feature |SQL |NoSQL|
 |--------|----|-----|
