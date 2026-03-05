@@ -6,3 +6,7 @@ This repo contains code , notes and methodology to learn a & implement backend a
 - ExpressJS
 - ReactJS
 - NodeJS
+
+## Testing 
+- Postman (For API testing)
+- React Testing Library (RTL)
